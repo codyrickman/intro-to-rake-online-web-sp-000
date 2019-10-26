@@ -9,4 +9,12 @@ end
 task :console do
 
 end
+namespace :db do
+  task :migrate
+end
+task :seed do
+
+end
+end
+end
 end
