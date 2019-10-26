@@ -1,5 +1,5 @@
 namespace :greeting do
-desc 'outputs hello to the terminal'
+  desc 'outputs hello to the terminal'
   task :hello do
     puts "hello from Rake!"
   end
@@ -7,11 +7,11 @@ desc 'outputs hello to the terminal'
     puts "hola de Rake!"
   end
 end
-  task :console do
+task :console do
 
-  end
+end
 namespace :db do
-  ask :migrate
+  task :migrate
 
   end
   task :seed do
