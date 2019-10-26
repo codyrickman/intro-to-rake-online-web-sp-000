@@ -12,7 +12,7 @@ end
   end
 namespace :db do
   ask :migrate
-  
+
   end
   task :seed do
 
