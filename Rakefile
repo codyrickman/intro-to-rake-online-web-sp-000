@@ -7,9 +7,6 @@ namespace :greeting do
     puts "hola de Rake!"
   end
 end
-task :console do
-
-end
 namespace :db do
   task :migrate
 
