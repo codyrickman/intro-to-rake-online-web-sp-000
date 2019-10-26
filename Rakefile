@@ -6,4 +6,7 @@ end
 task :hola do
   puts "hola de Rake!"
 end
+namespace :console do
+
+end
 end
